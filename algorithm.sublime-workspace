@@ -1,0 +1,565 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"print"
+			],
+			[
+				"T",
+				"ToUpper()\tstring"
+			],
+			[
+				"U",
+				"Unicode\tEncoding { get; }"
+			],
+			[
+				"u",
+				"UTF8\tEncoding { get; }"
+			],
+			[
+				"in",
+				"inputByteArray\tbyte[]"
+			],
+			[
+				"log",
+				"LogFormat(string format, params object[] args)\tvoid"
+			],
+			[
+				"de",
+				"Debug\tDebug"
+			],
+			[
+				"D",
+				"DES\tDES"
+			],
+			[
+				"Cr",
+				"CreateEncryptor()\tICryptoTransform"
+			],
+			[
+				"C",
+				"Cryptography\tCryptography"
+			],
+			[
+				"AEs",
+				"AesCryptoServiceProvider\tAesCryptoServiceProvider"
+			],
+			[
+				"F",
+				"FromBase64CharArray(char[] inArray, int offset, int length)\tbyte[]"
+			],
+			[
+				"Lo",
+				"LogFormat(string format, params object[] args)\tvoid"
+			],
+			[
+				"ToS",
+				"ToString(byte value, IFormatProvider provider)\tstring"
+			],
+			[
+				"Con",
+				"Convert\tConvert"
+			],
+			[
+				"Ver",
+				"VerticalLayoutGroup\tVerticalLayoutGroup"
+			],
+			[
+				"an",
+				"anchoredPosition\tVector2 { get; set; }"
+			],
+			[
+				"Un",
+				"UnityEngine\tUnityEngine"
+			],
+			[
+				"R",
+				"ResetPanel()\tvoid"
+			],
+			[
+				"SH",
+				"SHA512\tHMACSHAEnum"
+			],
+			[
+				"H",
+				"HmacSha1\tHMACSHAEnum"
+			],
+			[
+				"HM",
+				"HMACSHA1\tHMACSHA1"
+			],
+			[
+				"MD5",
+				"MD5CryptoServiceProvider\tMD5CryptoServiceProvider"
+			],
+			[
+				"get",
+				"GetBytes(string s)\tbyte[]"
+			],
+			[
+				"Enc",
+				"Encoding\tEncoding"
+			],
+			[
+				"Hmac",
+				"HMACSHA256\tHMACSHA256"
+			],
+			[
+				"lo",
+				"loginPassWord\tstring"
+			],
+			[
+				"unit",
+				"UnityEngine\tUnityEngine"
+			],
+			[
+				"sta",
+				"StartCoroutine(string methodName)\tCoroutine"
+			],
+			[
+				"Wai",
+				"WaitForEndOfFrame\tWaitForEndOfFrame"
+			],
+			[
+				"Wa",
+				"WaitForEndOfFrame\tWaitForEndOfFrame"
+			],
+			[
+				"wa",
+				"WaitForEndOfFrame\tWaitForEndOfFrame"
+			],
+			[
+				"Ie",
+				"IEnumerator\tIEnumerator"
+			],
+			[
+				"start",
+				"StartCoroutine(IEnumerator routine)\tCoroutine"
+			],
+			[
+				"Ba",
+				"BattleView\tstring"
+			],
+			[
+				"boo",
+				"bool\tbool"
+			],
+			[
+				"ok",
+				"okBtnText\tstring { get; set; }"
+			],
+			[
+				"ga",
+				"gameServer\tGameServerInfo"
+			],
+			[
+				"Str",
+				"string\tstring"
+			],
+			[
+				"e",
+				"eventData\tCEvent"
+			],
+			[
+				"is",
+				"IsNullOrEmpty(string value)\tbool"
+			],
+			[
+				"s",
+				"sceneItemName\tstring"
+			],
+			[
+				"i",
+				"sceneItemId\tstring"
+			],
+			[
+				"Sc",
+				"SceneItemPositionDates\tSceneItemPositionDates"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"lin",
+				"line"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"line",
+				"lineArr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					""
+				],
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Unity3D Build System/Unity.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"sharp",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Project/algorithm"
+	],
+	"file_history":
+	[
+		"/F/Project/u3dProject/ML-agent/ML-AgentsWithPlugin/",
+		"/G/Desktop/tensorflow/机器学习实践指南2版代码及资源/代码/3-1.py",
+		"/G/Desktop/ml-agents/unity-environment/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAgent.cs",
+		"/G/Desktop/tensorflow/机器学习实践指南2版代码及资源/代码/10-12.py",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/TSTableView/Script/TableViewDataSource/TableViewAutoScroll.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/SendMessag.cs",
+		"/C/Users/Administrator/Application Data/XMind/workspace-cathy/.temp-attachments/attachments/Cryptography.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/DialogMessage.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/Route.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameRes/Message Box/BattleViewBox.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferScript/BattleView.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/Cryptography.cs",
+		"/E/Program Files/Unity/Unity Example/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs",
+		"/E/Program Files/Unity/Unity Example/Assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/TSTableView/Script/Buttom/ButtomBar.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/PomeloSocket.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/PomeloSocketTest.cs",
+		"/G/BaiDuYun/机器学习实践指南2版代码及资源/代码/3-1.py",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferScript/ConnectorGameServer.cs",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/7zEC46067DB/example.js",
+		"/E/Hlddz/Version7/gameConfig.xml",
+		"/G/Desktop/HEAP&master-server-1&09-29-1105.json",
+		"/G/Desktop/Heap-20171031T144703.heaptimeline",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/TSTableView/Script/Buttom/ButtomBarRichText.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/RichText/Script/RichText.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/TSTableView/Script/TableViewCell/TableViewCellAnimator.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferSocket/client/PomeloClient.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/PomeloConnect.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/GameViewLayout.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/MessageBoxEnable.cs",
+		"/C/Users/Administrator/AppData/Local/Temp/7zOC462617B/package.json",
+		"/G/Desktop/package/examples/example.js",
+		"/C/Users/Administrator/AppData/Local/Temp/7zO4F5214EF/config.json",
+		"/C/Users/Administrator/AppData/Local/Temp/7zO4F5100CF/env.json",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/protobufScript/ServerProtos.cs",
+		"/G/Desktop/ccjh/Assets/Scripts/AlertBox.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/SceneItemPositionDates.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/CellContentModel.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferSocket/protocol/Message.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/SceneItemViewer.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/ShowInfoByMessageBox.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/RichTextTableView/Models/Model.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/RichTextTableView/Models/ModelData/ModelData.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/LinkPropertyManager.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/RichText/Extensions/RichTextExtension.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameComments/PublicScript/ConfigTools/ObsConfigTools.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferScript/ChangeStackNum.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/BlockManager.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferSocket/transport/FlatBufferReflectionObject.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/Scene/script/ReceiveMessage.cs",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferScript/SceneItemData.cs",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Git GUI Clients/Git GUI Clients.sublime-settings",
+		"/F/Project/flatBuffer/ccjh-client/Assets/GameRes/Alert Box Modal Dialog/Source/AlertBox.cs",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-mousemap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/F/Project/flatBuffer/ccjh-client/ccjh-client.sublime-project",
+		"/F/Project/flatBuffer/ccjh-client/Assets/AdvancedInspector/Examples/CSharp/AIExample10_ReadOnly.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferScript/MessageBox.cs",
+		"/F/Project/flatBuffer/ccjh-client/Assets/PomeloProtobufSocket/FlatBufferSocket/flatBuffers/Offset.cs",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/config.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
+		"/G/DownLoad/pm2-webshell_cpuMem.json",
+		"/F/Project/unity3D/PomeloFlatBuffer/Assets/PomeloProtobufSocket/Scene/script/SendMessag.cs",
+		"/F/Project/unity3D/PomeloFlatBuffer/Assets/PomeloProtobufSocket/Scene/script/PomeloSocket.cs",
+		"/F/Project/unity3D/PomeloFlatBuffer/Assets/PomeloProtobufSocket/Scene/script/ShowInfoByMessageBox.cs",
+		"/F/Project/unity3D/PomeloFlatBuffer/Assets/PomeloProtobufSocket/Scene/script/PomeloSocketTest.cs",
+		"/F/Project/unity3D/PomeloFlatBuffer/Assets/PomeloProtobufSocket/Scene/script/LinkPropertyManager.cs",
+		"/F/Project/unity3D/PomeloFlatBuffer/Assets/PomeloProtobufSocket/Scene/script/DialogMessage.cs",
+		"/F/Project/unity3D/PomeloFlatBuffer/Assets/PomeloProtobufSocket/Scene/script/CellContentModel.cs",
+		"/G/Desktop/test/main/java/com/demo/test/wxapi/WXEntryActivity.java",
+		"/G/Desktop/test/main/java/com/demo/test/MainActivity.java",
+		"/C/Users/Administrator/AppData/Local/Temp/Temp1_jpush-android-release-3.0.3.zip/example/AndroidManifest.xml",
+		"/F/Project/unity3D/PomeloFlatBuffer/Assets/FlatBufferTest.cs",
+		"/F/Project/unity3D/ccjh-client/Assets/GameComments/PublicScript/ProtobufScript/ServerProtos.cs",
+		"/D/protoc-gen-lua/protoFile/ServerProtos.proto",
+		"/D/protoc-gen-lua/protoToScript/cshape/ServerProtos.cs",
+		"/C/Users/Administrator/AppData/Local/Temp/tmp3138.tmp.cs",
+		"/G/Desktop/jpushdemo/TestActivity.java",
+		"/G/Desktop/jpushdemo/SettingActivity.java",
+		"/G/Desktop/jpushdemo/PushSetActivity.java",
+		"/G/Desktop/jpushdemo/MyReceiver.java",
+		"/G/Desktop/jpushdemo/MainActivity.java",
+		"/G/Desktop/jpushdemo/ExampleApplication.java",
+		"/G/Desktop/jpushdemo/ExampleUtil.java",
+		"/C/Users/Administrator/AppData/Local/Temp/7zO88803F6A/AndroidManifest.xml",
+		"/G/Desktop/Android_SDK_5.0.2/SendToWXActivity.java",
+		"/C/Users/Administrator/AppData/Local/Temp/Temp1_WeChatSDK_Android221cbf.zip/AndroidManifest.xml",
+		"/G/Desktop/WeChatSDK_sample_Android/build.gradle",
+		"/G/Desktop/WeChatSDK_sample_Android/app/build.gradle",
+		"/G/Desktop/Android_SDK_5.0.2/doc/com/tencent/mm/opensdk/constants/Build.html",
+		"/G/Desktop/Android_SDK_5.0.2/doc/overview-summary.html",
+		"/F/Project/SDK/WeChatSDK_sample_Android/app/build.gradle",
+		"/G/Desktop/WeChatSDK_sample_Android/app/src/main/java/net/sourceforge/simcpux/AppRegister.java",
+		"/G/Desktop/WeChatSDK_sample_Android/app/src/main/java/net/sourceforge/simcpux/Constants.java",
+		"/G/Desktop/WeChatSDK_sample_Android/app/src/main/java/net/sourceforge/simcpux/GetFromWXActivity.java",
+		"/G/Desktop/WeChatSDK_sample_Android/app/src/main/java/net/sourceforge/simcpux/ScanQRCodeLoginActivity.java",
+		"/G/Desktop/WeChatSDK_sample_Android/app/src/main/java/net/sourceforge/simcpux/SendToWXActivity.java",
+		"/G/Desktop/WeChatSDK_sample_Android/app/src/main/java/net/sourceforge/simcpux/ShowFromWXActivity.java",
+		"/G/Desktop/WeChatSDK_sample_Android/app/src/main/java/net/sourceforge/simcpux/Util.java",
+		"/G/Desktop/test/main/java/com/demo/test/wxapi/AppConst.java",
+		"/C/Users/Administrator/AppData/Local/Temp/7zOC0BACFCD/AndroidManifest.xml",
+		"/G/Desktop/test/main/java/com/demo/test/Bean/WXUserInfo.java",
+		"/G/Desktop/test/main/java/com/demo/test/Bean/WXErrorInfo.java",
+		"/G/Desktop/test/main/java/com/demo/test/Bean/WXAccessTokenInfo.java",
+		"/G/DownLoad/app/src/main/java/net/sourceforge/simcpux/GetFromWXActivity.java",
+		"/G/DownLoad/app/src/main/java/net/sourceforge/simcpux/wxapi/WXEntryActivity.java",
+		"/C/Users/Administrator/AppData/Local/Temp/Temp1_WeChatSDK_sample_Android.zip/app/src/main/java/net/sourceforge/simcpux/wxapi/WXEntryActivity.java",
+		"/C/Users/Administrator/AppData/Local/Temp/Temp1_libammsdk.zip/com/tencent/mm/sdk/event/EventPoolFactory.class",
+		"/C/Users/Administrator/AppData/Local/Temp/Temp1_libammsdk.zip/com/tencent/mm/sdk/ConstantsUI.class",
+		"/F/Project/unity3D/jpush-unity3d/Assets/Plugins/Android/AndroidManifest.xml",
+		"/G/QQ Fils/460454039/FileRecv/hosts",
+		"/F/Project/Java/JpushExample/res/layout/push_set_dialog.xml",
+		"/E/FlashFXP/Cache/~flashfxp/65DD341E_view.tmp/servers.json",
+		"/E/FlashFXP/Cache/~flashfxp/94F79683_view.tmp/adminUser.json",
+		"/E/FlashFXP/Cache/~flashfxp/94F79683_view.tmp/backupServers.json",
+		"/E/FlashFXP/Cache/~flashfxp/94F79683_view.tmp/master.json",
+		"/F/Project/NodeJS/ccjhServer/.gitignore",
+		"/F/Project/NodeJS/ccjhServer/shared/cluster deploy/README.md",
+		"/G/Desktop/WImageDownload.cs",
+		"/E/FlashFXP/Cache/~flashfxp/7252C3F0_view.tmp/servers.json",
+		"/E/FlashFXP/Cache/~flashfxp/7252C3F0_view.tmp/master.json",
+		"/E/FlashFXP/Cache/~flashfxp/94F79683_view.tmp/mongo.json"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 287.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 403.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.variable_get":
+	{
+		"height": 69.0
+	},
+	"pinned_build_system": "Packages/Unity3D Build System/Unity.sublime-build",
+	"project": "algorithm.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"butt",
+				"GameComments\\TSTableView\\Script\\Buttom\\ButtomBarRichText.cs"
+			],
+			[
+				"bu",
+				"GameComments\\TSTableView\\Script\\Buttom\\ButtomBar.cs"
+			],
+			[
+				"scenei",
+				"GameComments\\SceneItemViewer.cs"
+			],
+			[
+				"",
+				"PomeloProtobufSocket\\Scene\\script\\PomeloSocketTest.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
