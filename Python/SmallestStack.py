@@ -23,14 +23,16 @@ def EeQueue(queueValue):
 def DeQueue(queueValue):
 	if len(queue) <= 0:
 		return
-	index = queue.index(queueValue);
-	if index >= 0:
-		queue.remove(queueValue);
-		minIndex.remove(index);
-		i = len(minIndex)-1;
-		while (i >= 0):
-			if minIndex[i] > index:
+	queueIndex = queue.index(queueValue);
+	if queueIndex >= 0:
+		queue.remove(queueValue)
+		minIndex.remove(queueIndex)
+		delCount = len(queue) - queueIndex
+		i = len(minIndex) - 1;
+		while delCount > 0 and i >= 0:
+			if minIndex[i] > queueIndex:
 				minIndex[i] = minIndex[i] - 1
+				delCount -= 1
 			i = i - 1
 
 def Min():
@@ -57,6 +59,7 @@ EeQueue(1);
 EeQueue(5);
 print (queue);
 print (Min());
+DeQueue(3);
 print (Min());
 print (Min());
 print (Min());
